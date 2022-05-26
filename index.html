@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand logo" href="#">sneakers</a>
+          
+
+        <div class="collapse navbar-collapse mx-3" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0  d-flex justify-content-between ">
+            <li class="nav-item mx-2">
+              <a class="nav-link" aria-current="page" href="#">Collections</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Men</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Women</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+        
+        <form class="navbar-brand d-flex align-items-center">
+          <a class="w-auto icon-cart nav-link d-flex justify-content-center" href="#">
+            <img class="icon-cart-img mx-4" src="images/icon-cart.svg">
+          </a>
+          
+            <img class="icon-user mx-4" src="images/image-avatar.png">
+          </a>
+        </form>
+      </div>
+    </nav>
+
+
+    <div class="main">
+      <div class="row d-flex justify-content-center align-items-center p-3"> 
+          <div class="col-6 col-mb-2 d-block justify-content-center">
+            <div class="card d-flex justify-content-center mx-auto mb-3" style="width: 77%;">
+              <img src="/images/image-product-1.jpg" class="card-img card-img-top" alt="...">
+            </div>
+              
+            <div class="p-2  d-flex justify-content-evenly">
+              <a class="card" href="/"style="width: 4.3rem;">
+                <img src="/images/image-product-1.jpg" class="card-img card-img-bottom" alt="..."> 
+              </a>
+              <a class="card" href="/"style="width: 4.3rem;">
+                <img src="/images/image-product-2.jpg" class="card-img card-img-bottom" alt="..."> 
+              </a>
+              <a class="card" href="/"style="width: 4.3rem;">
+                <img src="/images/image-product-3.jpg" class="card-img card-img-bottom" alt="..."> 
+              </a>
+              <a class="card" href="/"style="width: 4.3rem;">
+                <img src="/images/image-product-4.jpg" class="card-img card-img-bottom" alt="..."> 
+              </a>
+            </div>
+          </div>
+
+          <div class="col-6 col-mb-10 justify-content-start">
+            <h5 class="item-marca">Sneaker Company</h5>
+            <div class="description w-75 m-1">
+              <h2 class="description-title mb-4">Fall Limited Edition Sneakers</h2>
+              <label class="text-black-50 mb-3">
+                These low-profile sneakers are your perfect casual wear companion. Featuring a 
+                durable rubber outer sole, they’ll withstand everything the weather can offer.
+              </label>
+              <div class=" mt-2 mb-2 w-25 d-flex justify-content-between align-items-center">
+                <div class="fs-4  text-black fw-bold">$125.00</div>
+                <label class="descuento p-1 mx-3">50%</label>
+              </div>
+              <strike class="text-black-50">$250.00</strike> 
+            </div>
+
+             <form class="buy mt-4 d-flex justify-content-start w-75 align-items-center">
+                <div class=" w-50 buy-options d-flex justify-content-start">
+                  <button class="p-1 icon-minus bg-light"><img src="images/icon-minus.svg"/></button>
+                  <input class="w-50 border buy-value text-center mx-1" type="text" value="0" placeholder="0">
+                  <button class="p-1 icon-plus bg-light"><img src="images/icon-plus.svg"/></button>
+                </div>
+                <a class="py-3 px-5 btn btn-buy">
+                  <img class="buy-img" src="images/icon-cart.svg"/>
+                  Add to cart
+                </a>
+            </form>
+          </div>
+
+      </div>
+    </div>  
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

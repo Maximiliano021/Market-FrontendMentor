@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    border:0;
+}
+body{
+    min-width:100vw;
+    background: #f5f6f6;
+}
+.container{
+    padding:0.5rem
+}
+.navbar{
+    border-bottom: 1px solid gainsboro;
+}
+.icon-cart img{
+    width:25px;
+    height:25px;
+}
+.icon-user{
+    width:50px;
+}
+.description h4{
+    color:orange
+}
+.card-img{
+    border-radius: 10px;
+}
+.card{
+    border:none;
+}
+.main{
+    margin:2rem;
+    background:white;
+    border-radius: 10px;
+}
+.descuento{
+    background-color: rgba(255, 166, 0, 0.2);
+    color:orange;
+    font-weight: bold;
+    font-size: 15px;
+}
+.btn-buy{
+    color:white;
+    background-color: rgb(239, 156, 1);
+    transition: 0.2s;
+}
+.btn-buy:hover{
+    color:white;
+    background-color: orange;
+    transition: 0.2s;
+}
+.item-marca{
+    color:orange;
+    font-weight: bold;
+}
+.description-title{
+    font-weight: bold;
+    font-size:40px;
+}
+.logo{
+    font-weight: bold;
+    font-size: 33px;
+}
