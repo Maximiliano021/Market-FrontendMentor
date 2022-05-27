@@ -28,7 +28,6 @@ body{
     border:none;
 }
 .main{
-    margin:2rem;
     background:white;
     border-radius: 10px;
 }
@@ -72,10 +71,7 @@ input[type="number"]{
 
 
 @media (max-width:993px){
-    .container{
-        margin:0;
-        padding:0;
-    }
+  
     .navbar-collapse{
         position: absolute;
         background: white;
