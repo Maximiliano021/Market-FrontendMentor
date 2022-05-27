@@ -1,13 +1,12 @@
 *{
     padding:0;
     border:0;
+    box-sizing: border-box;
 }
 body{
-    min-width:100vw;
+    
     background: #f5f6f6;
-}
-.container{
-    padding:0.5rem
+    font-family: 'Kumbh Sans', sans-serif;
 }
 .navbar{
     border-bottom: 1px solid gainsboro;
@@ -60,4 +59,31 @@ body{
 .logo{
     font-weight: bold;
     font-size: 33px;
+}
+.card-img-bottom:hover{
+    opacity: 0.5;
+    transition:0.2s
+}
+input[type="number"]{
+    -webkit-appearance: textfield !important;
+    margin: 0;
+    -moz-appearance:textfield !important;
+}
+
+
+@media (max-width:993px){
+    .container{
+        margin:0;
+        padding:0;
+    }
+    .navbar-collapse{
+        position: absolute;
+        background: white;
+        z-index: 100;
+        box-shadow: 1px 1px 25px 10px black;
+        border-radius:10px;
+    }
+    .main{
+        margin:0;   
+    }
 }
